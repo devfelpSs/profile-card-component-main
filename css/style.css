@@ -15,9 +15,21 @@
 }
 
 body {
+    background-color: var(--DarkCyan);
     font-family: var(--kumbh);
+    position: absolute;
+    height: 100vh;
 }
 
+.img-top {
+    position: absolute;
+    top: 30px;
+}
+
+.img-bottom {
+    position: absolute;
+    bottom: 30px;
+}
 
 
 /*
