@@ -23,13 +23,13 @@ body {
 
 .img-top {
     position: relative;
-    right: 35vh;
-    bottom: 30vh;
+    right: 60vh;
+    bottom: 70vh;
 }
 
 .img-bottom {
     position: relative;
-    bottom: 45vh;
+    bottom: 90vh;
     left: 36vh;
 }
 
