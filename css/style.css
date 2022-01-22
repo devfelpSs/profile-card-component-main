@@ -42,9 +42,31 @@ body {
     left: 85vh;
     bottom: 15vh;
     flex-direction: column;
-    background-color: red;
+    background-color: #fff;
+    border-radius: 2vh;
 }
 
+.img-card {
+    max-width: 100%;
+    border-top-left-radius: 2vh;
+    border-top-right-radius: 2vh;
+    position: relative;
+    bottom: 5vh;
+}
+
+.img-victor {
+    position: relative;
+    bottom: 13vh;
+    border-color: #fff;
+    border-radius: 50%;
+    border-width: 4px;
+    border-style: solid;
+}
+
+.stats {
+    display: flex;
+    align-self: auto;
+}
 
 /*
 # Front-end Style Guide
