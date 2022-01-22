@@ -17,32 +17,32 @@
 body {
     background-color: var(--DarkCyan);
     font-family: var(--kumbh);
-    position: absolute;
-    height: 100vh;
 }
 
 .img-top {
-    position: relative;
-    right: 60vh;
-    bottom: 70vh;
+    bottom: 30vh;
+    position: absolute;
+    right: 110vh;
 }
 
 .img-bottom {
-    position: relative;
-    bottom: 90vh;
-    left: 36vh;
+    position: fixed;
+    bottom: -92vh;
+    left: 120vh;
 }
 
 .profile {
-    display: flex;
-    position: absolute;
-    width: 26vh;
-    height: 35vh;
+    align-content: center;
     align-items: center;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    width: 56vh;
+    height: 65vh;
+    left: 85vh;
+    bottom: 15vh;
     flex-direction: column;
     background-color: red;
-    left: 22vh;
-    bottom: 45vh;
 }
 
 
