@@ -66,29 +66,31 @@ body {
 
 .profile {
     display: flex;
-    top: 34vh;
+    top: 35vh;
     position: absolute;
-    flex-direction: row;
+    flex-direction: column;
     font-size: 14px;
     align-items: center;
-    flex-wrap: wrap;
     width: 35vh;
     height: 10vh;  
 }
 
-.name {
-    padding-right: 2vh;
+.spn {
+    color: red;
+    padding-left: 1vh;
 }
 
-.old {
-    float: right;
-    font-size: 23px;
+.city {
+    text-align: center;
+    padding-top: 2vh;
+    margin: 0 auto;
 }
 
 .stats {
     display: flex;
     align-self: auto;
 }
+
 
 /*
 # Front-end Style Guide
