@@ -41,7 +41,7 @@ body {
     flex-direction: column;
     background-color: #fff;
     border-radius: 2vh;
-    margin: 20.5vh auto;
+    margin: 20vh auto;
     box-sizing: border-box;
 }
 
@@ -68,7 +68,7 @@ body {
     position: absolute;
     top: 31vh;
     flex-direction: column;
-    font-size: 1.5vh;
+    font-size: 1.8vh;
     align-items: center;
     width: 35vh;
     height: 10vh;
@@ -76,6 +76,7 @@ body {
 }
 
 .spn {
+    font-weight: lighter;
     color: var(--DarkGrayBlue);
     padding-left: 1vh;
 }
