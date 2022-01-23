@@ -17,6 +17,7 @@ body {
     font-family: var(--kumbh);
 }
 
+/*
 .img-top {
     bottom: 30vh;
     position: absolute;
@@ -28,21 +29,19 @@ body {
     bottom: -92vh;
     left: 120vh;
 }
-
+*/
 .card {
     align-content: center;
     align-items: center;
     display: flex;
     justify-content: center;
-    position: absolute;
-    width: 65vh;
-    height: 65vh;
-    left: 85vh;
-    bottom: 15vh;
+    position: relative;
+    width: 59vh;
+    height: 59vh;
     flex-direction: column;
     background-color: #fff;
     border-radius: 2vh;
-    margin: 0 auto;
+    margin: 20.5vh auto;
     box-sizing: border-box;
 }
 
@@ -61,30 +60,43 @@ body {
     border-radius: 50%;
     border-width: 4px;
     border-style: solid;
-    width: 23%;
+    width: 27%;
 }
 
 .profile {
     display: flex;
-    top: 35vh;
     position: absolute;
+    top: 31vh;
     flex-direction: column;
-    font-size: 14px;
+    font-size: 1.5vh;
     align-items: center;
     width: 35vh;
-    height: 10vh;  
+    height: 10vh;
+    color: var(--VeryDarkDesaturedBlue);
 }
 
 .spn {
-    color: red;
+    color: var(--DarkGrayBlue);
     padding-left: 1vh;
 }
 
 .city {
+    font-size: 16px;
+    font-weight: 400;
     text-align: center;
     padding-top: 2vh;
     margin: 0 auto;
+    color: var(--DarkGrayBlue)
 }
+
+hr {
+    position: inherit;
+    bottom: 2.3vh;
+    font-style: solid var(--DarkGrayBlue);
+    width: 99%;
+}
+
+/*Inicio config grid layout*/
 
 .grid {
     justify-items: center;
@@ -92,51 +104,65 @@ body {
     grid-template-columns: 1fr 1fr 1fr;
     grid-column-gap: 8vh;
     position: relative;
-    top: 5vh;
+    top: 2vh;
     
 }
 
 #item-1 {
     font-size: 18px;
+    font-weight: 700;
     grid-column-start: 1;
     grid-column-end: 1;
     grid-row-start: 1;
     grid-row-end: 2;
+    color: var(--VeryDarkDesaturedBlue);
 }
 
 #item-2 {
+    font-size: 12px;
     grid-column-start: 1;
     grid-column-end: 1;
     grid-row-start: 2;
     grid-row-end: 3;
+    color: var(--DarkGrayBlue);
 }
 
 #item-3 {
+    font-size: 18px;
+    font-weight: 700;
     grid-column-start: 2;
     grid-column-end: 2;
     grid-row-start: 1;
     grid-row-end: 2;
+    color: var(--VeryDarkDesaturedBlue);
 }
 
 #item-4 {
+    font-size: 12px;
     grid-column-start: 2;
     grid-column-end: 2;
     grid-row-start: 2;
     grid-row-end: 3;
+    color: var(--DarkGrayBlue);
 }
 
 #item-5 {
+    font-size: 18px;
+    font-weight: 700;
     grid-column-start: 3;
     grid-column-end: 3;
     grid-row-start: 1;
     grid-row-end: 2;
+    color: var(--VeryDarkDesaturedBlue);
 }
 
 #item-6 {
+    font-size: 12px;
     grid-column-start: 3;
     grid-column-end: 3;
     grid-row-start: 2;
     grid-row-end: 3;
+    color: var(--DarkGrayBlue);
 }
 
 /*
