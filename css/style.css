@@ -20,14 +20,14 @@ body {
 /*
 .img-top {
     bottom: 30vh;
-    position: absolute;
-    right: 110vh;
+    position: fixed;
+    right: 120vh;
 }
 
 .img-bottom {
     position: fixed;
-    bottom: -92vh;
-    left: 120vh;
+    bottom: -110vh;
+    left: 100vh;
 }
 */
 .card {
@@ -41,7 +41,7 @@ body {
     flex-direction: column;
     background-color: #fff;
     border-radius: 2vh;
-    margin: 20vh auto;
+    margin: 18vh auto;
     box-sizing: border-box;
 }
 
@@ -166,35 +166,44 @@ hr {
     color: var(--DarkGrayBlue);
 }
 
-/*
-# Front-end Style Guide
+@media (min-width: 375px){
+    .img-top {
+        bottom: 30vh;
+        position: fixed;
+        right: 30vh;
+    }
+    
+    .img-bottom {
+        position: fixed;
+        bottom: -110vh;
+        left: 25vh;
+    } 
+}
 
-## Layout
+@media (min-width: 768px){
+    .img-top {
+        bottom: 30vh;
+        position: fixed;
+        right: 60vh;
+    }
+    
+    .img-bottom {
+        position: fixed;
+        bottom: -110vh;
+        left: 70vh;
+    } 
+}
 
-The designs were created to the following widths:
-
-- Mobile: 375px
-- Desktop: 1440px
-
-## Colors
-
-### Primary
-
-Dark cyan: hsl(185, 75%, 39%)
-Very dark desaturated blue: hsl(229, 23%, 23%)
-Dark grayish blue: hsl(227, 10%, 46%)
-
-### Neutral
-
-Dark gray: hsl(0, 0%, 59%)
-
-## Typography
-
-### Body Copy
-
-- Font size (name and stats): 18px
-
-### Font
-
-- Family: [Kumbh Sans](https://fonts.google.com/specimen/Kumbh+Sans)
-- Weights: 400, 700
+@media (min-width: 1024px) {
+    .img-top {
+        bottom: 30vh;
+        position: fixed;
+        right: 120vh;
+    }
+    
+    .img-bottom {
+        position: fixed;
+        bottom: -107vh;
+        left: 100vh;
+    }
+}
