@@ -207,3 +207,19 @@ hr {
         left: 100vh;
     }
 }
+
+.attribution {
+    text-align: left;
+    font-size: 2vh;
+    color: #fff;
+    font-weight: 400;
+    padding-left: 2vh;
+}
+
+a {
+    color:hsl(229, 23%, 23%);
+}
+
+a:hover {
+    cursor: pointer;
+}
